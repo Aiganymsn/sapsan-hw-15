@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Калькулятор</title>
+</head>
+
+<body>
+   <script>
+      let menu = prompt("Выберите опцию калькулятора: +, -, *, /")
+
+      function addition() {
+         if (menu == '+') {
+            let num1 = prompt("Напишите первую цифру");
+            let num2 = prompt("Напишите первую цифру");
+            let plus = +num1 + +num2;
+            alert(plus);
+         }
+      }
+      addition()
+
+      function multiplication() {
+         if (menu == '*') {
+            let num1 = prompt("Напишите первую цифру");
+            let num2 = prompt("Напишите первую цифру");
+            let multipli = +num1 + +num2;
+            alert(multipli);
+         }
+      }
+      multiplication()
+
+      function division() {
+         if (menu == '/') {
+            let num1 = prompt("Напишите первую цифру");
+            let num2 = prompt("Напишите первую цифру");
+            let division = +num1 / +num2;
+            alert(division);
+         }
+      }
+      division()
+
+      function minus() {
+         if (menu == '-') {
+            let num1 = prompt("Напишите первую цифру");
+            let num2 = prompt("Напишите первую цифру");
+            let minus = +num1 - +num2;
+            alert(minus);
+         }
+      }
+      minus()
+
+   </script>
+</body>
+
+</html>
